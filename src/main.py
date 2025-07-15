@@ -1,18 +1,21 @@
 from fetchers.hr_system import fetch_hr_users
+from fetchers.cloud_storage import fetch_cloud_users
 from risk_engine import analyze_user_risks
 from report_generator import save_report
+from database import init_db, save_risks_to_db
+from alert_system import trigger_alerts
 
 if __name__ == "__main__":
-    users = fetch_hr_users()
-    print(f"\nFetched {len(users)} HR users")
+    init_db()
 
-    risks = analyze_user_risks(users)
+    hr_users = fetch_hr_users()
+    hr_risks = analyze_user_risks(hr_users)
+    save_report(hr_risks, system_name="HRSystem") 
+    save_risks_to_db(hr_risks, system_name="HRSystem")
+    trigger_alerts(hr_risks)
 
-    print("\n Risk Assessment Results:")
-    for r in risks:
-        print(f"{r['name']} - Risk: {r['risk_level']} (Score: {r['score']})")
-        for reason in r["reasons"]:
-            print(f"  • {reason}")
-        print()
-
-    save_report(risks)
+    cloud_users = fetch_cloud_users()
+    cloud_risks = analyze_user_risks(cloud_users)
+    save_report(cloud_risks, system_name="CloudStorage") 
+    save_risks_to_db(cloud_risks, system_name="CloudStorage")
+    trigger_alerts(cloud_risks)
