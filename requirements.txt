@@ -1,2 +1,5 @@
 requests
 python-dateutil
+streamlit
+plotly
+pandas

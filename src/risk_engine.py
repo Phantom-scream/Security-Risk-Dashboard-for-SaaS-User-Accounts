@@ -13,11 +13,11 @@ def analyze_user_risks(users):
         reasons = []
 
         if len(user["password"]) < 8:
-            score += 3
+            score += 4
             reasons.append("Password too short")
 
         if user["password"].lower() in COMMON_WEAK_PASSWORDS:
-            score += 5
+            score += 6
             reasons.append("Common weak password")
 
         domain = user["email"].split("@")[-1]
@@ -34,7 +34,7 @@ def analyze_user_risks(users):
             reasons.append("Invalid registration date format")
 
         if user["country"] in RISKY_COUNTRIES:
-            score += 3
+            score += 5
             reasons.append(f"User from high-risk country: {user['country']}")
 
         if score >= 10:
