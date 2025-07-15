@@ -1,5 +1,6 @@
 from fetchers.hr_system import fetch_hr_users
 from risk_engine import analyze_user_risks
+from report_generator import save_report
 
 if __name__ == "__main__":
     users = fetch_hr_users()
@@ -13,3 +14,5 @@ if __name__ == "__main__":
         for reason in r["reasons"]:
             print(f"  • {reason}")
         print()
+
+    save_report(risks)
