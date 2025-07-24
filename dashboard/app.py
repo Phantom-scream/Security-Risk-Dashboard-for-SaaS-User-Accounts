@@ -2,6 +2,10 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+from anomaly_detection import detect_anomalies
 
 DB_PATH = "data/risk_history.db"
 
@@ -23,7 +27,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Sidebar Logo & Description
 st.sidebar.image("https://img.icons8.com/fluency/96/lock.png", width=64)
 st.sidebar.markdown("""
 **Security Risk Dashboard**
@@ -117,13 +120,11 @@ def inject_theme(theme):
             </style>
         """, unsafe_allow_html=True)
 
-# Theme Toggle
 theme = st.sidebar.radio("Theme", ["Light", "Dark"], index=0)
 inject_theme(theme)
 
-st.title("🔐 Security Risk Dashboard")
+st.title(" Security Risk Dashboard")
 
-# Load data from DB
 @st.cache_data
 def load_data():
     conn = sqlite3.connect(DB_PATH)
@@ -134,11 +135,12 @@ def load_data():
 
 df = load_data()
 
-# Sidebar Filters
 st.sidebar.header("📂 Filters")
 
 system_filter = st.sidebar.selectbox("System", ["All"] + sorted(df["system"].unique().tolist()))
+
 risk_filter = st.sidebar.multiselect("Risk Level", options=["LOW", "MEDIUM", "HIGH"], default=["LOW", "MEDIUM", "HIGH"])
+
 user_filter = st.sidebar.selectbox("🔍 Focus on User (optional)", ["None"] + sorted(df["name"].unique()))
 
 filtered_df = df.copy()
@@ -152,35 +154,35 @@ if risk_filter:
 if user_filter != "None":
     filtered_df = filtered_df[filtered_df["name"] == user_filter]
 
-# Display Filtered Table with color-coded risk tags
 st.subheader("📋 Filtered Risk Logs")
+
+
 def highlight_risk(row):
+
     color = ""
     text = ""
     if row["risk_level"] == "HIGH":
-        color = "background-color: #d90429; color: #fff;"  # Red, white text
+        color = "background-color: #d90429; color: #fff;"  
     elif row["risk_level"] == "MEDIUM":
-        color = "background-color: #ffb400; color: #23272f;"  # Orange, dark text
+        color = "background-color: #ffb400; color: #23272f;" 
     elif row["risk_level"] == "LOW":
-        color = "background-color: #43aa8b; color: #fff;"  # Green, white text
+        color = "background-color: #43aa8b; color: #fff;" 
     return [color if col == "risk_level" else "" for col in row.index]
+
+
 
 styled_df = filtered_df.style.apply(highlight_risk, axis=1)
 st.dataframe(styled_df, use_container_width=True)
 
-# Download Button with tooltip
 with st.expander("Download filtered risks as CSV"):
     st.download_button("⬇️ Download CSV", filtered_df.to_csv(index=False), "filtered_risks.csv", "text/csv", help="Download the filtered risk logs for further analysis.")
 
-# Bar Chart: Risk Level Counts with tooltip
 with st.expander("See risk level breakdown"):
     st.subheader("📊 Risk Level Breakdown")
-    # Normalize risk_level values to uppercase and strip whitespace
     filtered_df["risk_level"] = filtered_df["risk_level"].str.upper().str.strip()
     risk_counts = filtered_df["risk_level"].value_counts().reindex(["HIGH", "MEDIUM", "LOW"]).fillna(0)
     st.bar_chart(risk_counts)
 
-# Line Chart: Risk Over Time with tooltip
 with st.expander("View risk score trends over time"):
     st.subheader("📈 Risk Score Trend Over Time")
     if not filtered_df.empty:
@@ -196,7 +198,13 @@ with st.expander("View risk score trends over time"):
     else:
         st.info("No data available for the selected filters.")
 
-# Show full history for selected user in an expander
 if user_filter != "None":
-    with st.expander(f"🧑 Full Risk History for {user_filter}"):
+    with st.expander(f"Full Risk History for {user_filter}"):
         st.dataframe(filtered_df.sort_values("timestamp"), use_container_width=True)
+
+anomalies_df = detect_anomalies(filtered_df)
+if not anomalies_df.empty:
+    st.subheader("🚨 Anomalous Risk Changes Detected")
+    st.dataframe(anomalies_df, use_container_width=True)
+else:
+    st.info("No anomalies detected in the selected data.")

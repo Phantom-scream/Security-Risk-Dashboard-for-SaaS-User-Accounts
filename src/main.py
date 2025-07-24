@@ -6,14 +6,18 @@ from database import init_db, save_risks_to_db
 from alert_system import trigger_alerts
 
 if __name__ == "__main__":
+    
     init_db()
 
+    # Fetching and analyzing HR system users (HR sistemi istifadəçilərinin alınması və analizi)
     hr_users = fetch_hr_users()
     hr_risks = analyze_user_risks(hr_users)
     save_report(hr_risks, system_name="HRSystem") 
     save_risks_to_db(hr_risks, system_name="HRSystem")
     trigger_alerts(hr_risks)
 
+
+    # Fetching and analyzing Cloud Storage users (Bulud saxlama istifadəçilərinin alınması və analizi)
     cloud_users = fetch_cloud_users()
     cloud_risks = analyze_user_risks(cloud_users)
     save_report(cloud_risks, system_name="CloudStorage") 

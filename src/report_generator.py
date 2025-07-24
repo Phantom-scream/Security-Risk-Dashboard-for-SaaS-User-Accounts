@@ -26,7 +26,7 @@ def save_report(risks, system_name):
                 system_name
             ])
 
-    with open(json_file, "w") as f:
+    with open(json_file, "w") as f:  # it tells python to create the file for writing (Pythona file i yaratmaq üçün yazmağı bildirir)
         json.dump(risks, f, indent=4)
 
     print(f"\n {system_name} Reports saved:")

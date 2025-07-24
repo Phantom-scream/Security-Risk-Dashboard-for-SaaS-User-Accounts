@@ -1,0 +1,21 @@
+User ID,Name,Email,Risk Score,Risk Level,Reasons,System
+7ca24779-93ae-4dd0-9637-314a49a627e4,سورنا پارسا,swrn.prs@example.com,5,MEDIUM,Invalid registration date format; User from high-risk country: Iran,HRSystem
+b0917537-9755-4e53-9d3e-613adf33a893,Frankie Torres,frankie.torres@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+732a1006-dba9-464f-bffb-7a9f776cb95e,Shilpa Thampy,shilpa.thampy@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+c77e04f1-f16f-4f38-89e8-0c74bf9940f7,Addison Anderson,addison.anderson@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+af910aa1-caf6-465f-84b1-3520db5e298e,Adem Ekici,adem.ekici@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+930e9118-1c7b-4716-a1f9-63aa7bbdd62e,Floran Ubels,floran.ubels@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+c913d5fb-0118-4350-914f-1f8d51b0f778,Eli Freeman,eli.freeman@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+1e99bf21-95ff-4e55-b44e-a3e58f96a8ed,Gonzalo Moreno,gonzalo.moreno@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+30fb2cf7-d678-41fe-a2b6-73fa3e750900,Inaya Roger,inaya.roger@example.com,0,LOW,Invalid registration date format,HRSystem
+03d1953b-efbe-4c39-b330-51b2d94b5aa4,Maya Molvær,maya.molvaer@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+c8c5aca7-6989-41ae-b055-f2f82e909c36,Zoe Garza,zoe.garza@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+6b22c8a2-65eb-4bb0-aba2-1290e96b44b6,Ann Nichols,ann.nichols@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+2c94f695-1fd6-4f56-b8ec-6dbd703aea21,Beverly Van Duinkerken,beverly.vanduinkerken@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+0ecffde3-27a1-4353-af4b-7dbe77b0644f,سپهر رضایی,sphr.rdyy@example.com,9,MEDIUM,Password too short; Invalid registration date format; User from high-risk country: Iran,HRSystem
+3ed57eeb-4203-45bb-a714-42d3e9e27406,Monisha Ramesh,monisha.ramesh@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+2622e9b7-b7ca-4576-98bc-91368ba3223c,Moreno Blanc,moreno.blanc@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+899b0f9d-9a77-475b-9af7-0a23ae747e69,Roope Lampi,roope.lampi@example.com,0,LOW,Invalid registration date format,HRSystem
+783e8b14-a20b-4c40-ab62-7fe0b3442cd0,Maeva Johnson,maeva.johnson@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+b733a574-1766-4afb-9a83-7f5072a0f037,Akshitha Andrade,akshitha.andrade@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem
+de32d469-1a2a-4876-80ce-ae0a83fff4b1,Batur Taşlı,batur.tasli@example.com,4,LOW,Password too short; Invalid registration date format,HRSystem

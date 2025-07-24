@@ -1,0 +1,21 @@
+User ID,Name,Email,Risk Score,Risk Level,Reasons,System
+0606288e-76cf-4f7f-95a9-ab7e0136c605,Aaradhya Kamath,aaradhya.kamath@example.com,0,LOW,Invalid registration date format,HRSystem
+dc2a89dd-9471-4a39-8700-e036860156ac,Arnold Caldwell,arnold.caldwell@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+88b60f71-c0bf-4c4f-85f9-8b709a7a7416,Ingetraud Reineke,ingetraud.reineke@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+81243f7b-5331-4e73-8574-d6c549675ba2,Arttu Hiltunen,arttu.hiltunen@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+8f7fae27-d268-439b-a535-712aff692375,Celia Vázquez,celia.vazquez@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+b9f11674-34fa-47df-a51d-c17d252e14a3,Timian Høgberg,timian.hogberg@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+865bce8a-241d-4545-831c-2ebae386794d,Adrian Stephens,adrian.stephens@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+44523dc5-b951-44b0-a506-891325d9f08d,Simone Roux,simone.roux@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+194aa057-563c-4173-b72c-50e946770d56,Marion Gerard,marion.gerard@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+8eab3ddb-e47b-4575-9396-f80b2666d3d7,Axelle Lefevre,axelle.lefevre@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+bee87025-1269-456e-bfe3-d6d6ce139ee7,Bruce Matthews,bruce.matthews@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+f78b57e2-820c-474a-908e-8d24de3e6ae9,Suzanne Fox,suzanne.fox@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+e01c65a0-6a75-4a77-80a9-9644ad7e42bd,Leslie Russell,leslie.russell@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+22c8f9f4-a4e7-4389-86a7-5d3ee7f591f1,Eva Wright,eva.wright@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+bf100f32-11bb-4ff3-9282-defb66c309d0,Hans-J. Grün,hans-j..grun@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+c833f524-46e0-44b9-97bd-3483f93584ba,Germán Rolón,german.rolon@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+a1144d6d-b6c1-4481-a90a-d4b1bfd810e2,Metin Kayser,metin.kayser@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
+8eb0fdbb-01a3-4572-91c4-c1ddb6c28b78,Annabelle Zhang,annabelle.zhang@example.com,0,LOW,Invalid registration date format,HRSystem
+76b9cadb-5b24-4a0f-8211-ec928470ac1c,Girindra Chatterjee,girindra.chatterjee@example.com,0,LOW,Invalid registration date format,HRSystem
+5aee3092-d661-49a8-9389-0c64e58cabc6,Kasper Kantola,kasper.kantola@example.com,5,MEDIUM,Password too short; Invalid registration date format,HRSystem
