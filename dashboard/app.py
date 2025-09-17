@@ -6,6 +6,8 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 from anomaly_detection import detect_anomalies
+from validation import validate_dataframe
+from regression import compare_latest_runs
 
 DB_PATH = "data/risk_history.db"
 
@@ -127,13 +129,20 @@ st.title(" Security Risk Dashboard")
 
 @st.cache_data
 def load_data():
-    conn = sqlite3.connect(DB_PATH)
-    df = pd.read_sql_query("SELECT * FROM risk_log ORDER BY timestamp DESC", conn)
-    conn.close()
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
-    return df
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        df = pd.read_sql_query("SELECT * FROM risk_log ORDER BY timestamp DESC", conn)
+        conn.close()
+        df["timestamp"] = pd.to_datetime(df["timestamp"])
+        return df
+    except Exception as e:
+        st.error(f"Failed to load data: {e}")
+        return pd.DataFrame()
 
 df = load_data()
+if df.empty:
+    st.info("No data available. Run `python src/main.py` to populate the database.")
+    st.stop()
 
 st.sidebar.header("📂 Filters")
 
@@ -154,7 +163,7 @@ if risk_filter:
 if user_filter != "None":
     filtered_df = filtered_df[filtered_df["name"] == user_filter]
 
-st.subheader("📋 Filtered Risk Logs")
+st.subheader(" Filtered Risk Logs")
 
 
 def highlight_risk(row):
@@ -175,16 +184,16 @@ styled_df = filtered_df.style.apply(highlight_risk, axis=1)
 st.dataframe(styled_df, use_container_width=True)
 
 with st.expander("Download filtered risks as CSV"):
-    st.download_button("⬇️ Download CSV", filtered_df.to_csv(index=False), "filtered_risks.csv", "text/csv", help="Download the filtered risk logs for further analysis.")
+    st.download_button("⬇ Download CSV", filtered_df.to_csv(index=False), "filtered_risks.csv", "text/csv", help="Download the filtered risk logs for further analysis.")
 
 with st.expander("See risk level breakdown"):
-    st.subheader("📊 Risk Level Breakdown")
+    st.subheader(" Risk Level Breakdown")
     filtered_df["risk_level"] = filtered_df["risk_level"].str.upper().str.strip()
     risk_counts = filtered_df["risk_level"].value_counts().reindex(["HIGH", "MEDIUM", "LOW"]).fillna(0)
     st.bar_chart(risk_counts)
 
 with st.expander("View risk score trends over time"):
-    st.subheader("📈 Risk Score Trend Over Time")
+    st.subheader(" Risk Score Trend Over Time")
     if not filtered_df.empty:
         fig = px.line(
             filtered_df.sort_values("timestamp"),
@@ -204,7 +213,24 @@ if user_filter != "None":
 
 anomalies_df = detect_anomalies(filtered_df)
 if not anomalies_df.empty:
-    st.subheader("🚨 Anomalous Risk Changes Detected")
+    st.subheader(" Anomalous Risk Changes Detected")
     st.dataframe(anomalies_df, use_container_width=True)
 else:
     st.info("No anomalies detected in the selected data.")
+
+with st.expander("Data validation checks"):
+    issues = validate_dataframe(filtered_df)
+    if not issues:
+        st.success("All validation checks passed.")
+    else:
+        for i in issues:
+            st.warning(i)
+
+with st.expander("Regression comparison (last two runs)"):
+    summary, runs = compare_latest_runs(df)
+    prev_run, curr_run = runs
+    if summary.empty:
+        st.info("Not enough runs to compare. Execute main.py twice to generate at least two run_ids.")
+    else:
+        st.write(f"Comparing runs: previous={prev_run}, current={curr_run}")
+        st.dataframe(summary, use_container_width=True)

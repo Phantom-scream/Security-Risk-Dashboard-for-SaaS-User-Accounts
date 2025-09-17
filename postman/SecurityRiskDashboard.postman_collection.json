@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Security Risk Dashboard API",
+    "_postman_id": "d6e9f2b5-0000-0000-0000-000000000001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    { "name": "Health", "request": { "method": "GET", "url": "http://localhost:8000/health" } },
+    { "name": "List Risks", "request": { "method": "GET", "url": "http://localhost:8000/risks?risk_level=HIGH&limit=50" } },
+    { "name": "User Risks", "request": { "method": "GET", "url": "http://localhost:8000/risks/{{user_id}}" } },
+    { "name": "Summary", "request": { "method": "GET", "url": "http://localhost:8000/stats/summary" } }
+  ],
+  "variable": [
+    { "key": "user_id", "value": "replace-with-id" }
+  ]
+}

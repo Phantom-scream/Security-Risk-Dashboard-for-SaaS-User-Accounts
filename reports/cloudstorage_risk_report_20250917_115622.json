@@ -1,0 +1,1304 @@
+[
+    {
+        "id": "631bb20e-8c9e-49cf-a433-910bc781cf16",
+        "name": "Harley Harris",
+        "email": "harley.harris+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "2860e97c-fcda-4380-8cb5-f20e0bcb20f2",
+        "name": "Eleonora Petkovi\u0107",
+        "email": "eleonora.petkovic+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "591ba50d-528a-4bd3-a863-5402a67e0744",
+        "name": "Ignacio Ib\u00e1\u00f1ez",
+        "email": "ignacio.ibanez+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "09695fd8-ade5-44f3-8881-935652ca045b",
+        "name": "George Mills",
+        "email": "george.mills+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e936516e-3214-4e82-a95b-9b1d7db42b0f",
+        "name": "Minttu Leppo",
+        "email": "minttu.leppo+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "d938ac85-27ee-4a5e-8160-4b4dc0bd59a8",
+        "name": "Stefana Maksimovi\u0107",
+        "email": "stefana.maksimovic+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8fd3bc5b-b36b-4acc-bb3b-0d060aa59f8d",
+        "name": "Thomas Singh",
+        "email": "thomas.singh+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "0f104dfc-5c44-4010-8bda-6989f8c8d230",
+        "name": "Ece Akan",
+        "email": "ece.akan+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "d096ea10-096e-4fbe-bc6c-4245521ed82b",
+        "name": "Nikolas Risch",
+        "email": "nikolas.risch+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "4df3218b-e598-4e5a-9d8f-f5c8cc12a223",
+        "name": "Darlene Reid",
+        "email": "darlene.reid+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c4bef27f-b1ed-4b68-90d2-a1b708b54365",
+        "name": "Caleb Smith",
+        "email": "caleb.smith+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "21f7e571-61c4-43a9-a65c-bae960125a3e",
+        "name": "Victor Brar",
+        "email": "victor.brar+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "1e48b785-3be8-4d64-bcd0-691ba17b467a",
+        "name": "Hector Cruz",
+        "email": "hector.cruz+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "a31bbf7d-bb15-4a72-8177-1bbec267bd9a",
+        "name": "Umbertina Dias",
+        "email": "umbertina.dias+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "6a706cc9-b793-47df-b3bf-0a0ee92f833c",
+        "name": "Amine Valde",
+        "email": "amine.valde+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b6d2b344-390c-438f-8939-67930f30e1a3",
+        "name": "Jordi Sanz",
+        "email": "jordi.sanz+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "39afc49d-5bab-4615-9682-54c22ab79176",
+        "name": "\u00d6zkan \u00c7evik",
+        "email": "ozkan.cevik+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c9ad0f66-aef2-45ed-bc9a-d288d0b491c8",
+        "name": "Tyler Garza",
+        "email": "tyler.garza+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "16e13bd3-0b82-4e87-8b3b-c5696bf12281",
+        "name": "\u062f\u06cc\u0646\u0627 \u06a9\u0631\u06cc\u0645\u06cc",
+        "email": "dyn.khrymy+cloud@example.com",
+        "score": 11,
+        "risk_level": "HIGH",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format",
+            "User from high-risk country: Iran"
+        ]
+    },
+    {
+        "id": "60afd663-af63-4ff6-8f54-6e78cffefded",
+        "name": "Jeffrey Hunt",
+        "email": "jeffrey.hunt+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "2e3baecd-3c0b-44ff-a79e-0086dbc4ff96",
+        "name": "Linnea Velde",
+        "email": "linnea.velde+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "89fe0d97-442d-40ac-8a3d-cdc4739a549f",
+        "name": "M\u00e1rcia Porto",
+        "email": "marcia.porto+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "25304721-6720-4d2a-af54-45d757952e15",
+        "name": "Malou Madsen",
+        "email": "malou.madsen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "3e1c62fe-8604-4ca8-bcd5-b20339b3f8af",
+        "name": "Elinor Orvik",
+        "email": "elinor.orvik+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "04ae1848-2062-4b99-b5ac-4c85988a187d",
+        "name": "Pooja Jain",
+        "email": "pooja.jain+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "dd37e184-451f-4cbb-8428-662259c5470a",
+        "name": "Libid Bakunec",
+        "email": "libid.bakunec+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "2e8e9710-cb90-4bdb-898b-cc15c6720703",
+        "name": "Jeannine El Hamdaoui",
+        "email": "jeannine.elhamdaoui+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "ce6c1651-931a-4f60-95aa-96b1e88a14b6",
+        "name": "Marcus Duarte",
+        "email": "marcus.duarte+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "31a1759a-cff7-4d59-9360-543eca1e4ca7",
+        "name": "Iina Kivi",
+        "email": "iina.kivi+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "74dd3f17-09cf-440c-8207-5e82d697182d",
+        "name": "Alfreda Lyubomirskiy",
+        "email": "alfreda.lyubomirskiy+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8a409ec5-fa62-4ee4-ac39-404dd23cc354",
+        "name": "Leslie Patterson",
+        "email": "leslie.patterson+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "4333efec-0632-4516-be47-d6ee6993b43c",
+        "name": "Frederick Robertson",
+        "email": "frederick.robertson+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "067be3d7-a623-4933-84bc-69eaf805fdfd",
+        "name": "Davut Kutlay",
+        "email": "davut.kutlay+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "f45858f1-8b37-4c49-8d67-6fa774209cb4",
+        "name": "Lourdes Balderas",
+        "email": "lourdes.balderas+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e8f97c12-bd90-44a6-9298-5dc5bbb3d88e",
+        "name": "Likeriya Gnatishin",
+        "email": "likeriya.gnatishin+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "13a129f9-f4a5-4923-a4b9-935701e44df4",
+        "name": "\u0628\u0627\u0631\u0627\u0646 \u0646\u062c\u0627\u062a\u06cc",
+        "email": "brn.njty+cloud@example.com",
+        "score": 11,
+        "risk_level": "HIGH",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format",
+            "User from high-risk country: Iran"
+        ]
+    },
+    {
+        "id": "e9e156fb-e8cb-4fb8-95fd-be478969be23",
+        "name": "\u0631\u0627\u062f\u06cc\u0646 \u0627\u062d\u0645\u062f\u06cc",
+        "email": "rdyn.hmdy+cloud@example.com",
+        "score": 6,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Invalid registration date format",
+            "User from high-risk country: Iran"
+        ]
+    },
+    {
+        "id": "23a76f0d-bb5b-4ffa-94b8-9e4b4ecf5fdb",
+        "name": "Daniella Engum",
+        "email": "daniella.engum+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "3b88ba7b-ddc8-4435-af80-6e1a15afe1ab",
+        "name": "Aada Rinne",
+        "email": "aada.rinne+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "78923760-b140-427b-915d-a6e818db0b59",
+        "name": "Samuel Fisher",
+        "email": "samuel.fisher+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "46be01e5-9313-4423-9b82-4a9733864a2c",
+        "name": "Daniel C\u00f4t\u00e9",
+        "email": "daniel.cote+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e65cc8e4-889a-4092-beb0-f16c8613622c",
+        "name": "Alexandra Heim",
+        "email": "alexandra.heim+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "d4abfcb2-4148-4821-ba29-c25a22239b4e",
+        "name": "Adyasa Gamskar",
+        "email": "adyasa.gamskar+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "012824bd-cb8c-4852-baa4-0a5c7ac3acaf",
+        "name": "Salvador Griego",
+        "email": "salvador.griego+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "f243d8ef-5859-4202-aa34-3f427b3e5d71",
+        "name": "Svitogora Micik",
+        "email": "svitogora.micik+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b3e97005-8a4a-43a8-98f5-135a943aa4d1",
+        "name": "Jasmine Klette",
+        "email": "jasmine.klette+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "4363bcc0-936a-4a63-b484-c80eb8341aa9",
+        "name": "Holly Wright",
+        "email": "holly.wright+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "81e4b058-ab4b-4d1b-a96e-bcdb68b2b508",
+        "name": "Batur Berbero\u011flu",
+        "email": "batur.berberoglu+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "44c3d530-b6c6-413a-a088-9350c84b25b2",
+        "name": "Victoria Renard",
+        "email": "victoria.renard+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "4ab9135c-f20f-4510-91e3-56f9bc209c10",
+        "name": "S\u00f4nia Porto",
+        "email": "sonia.porto+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "385b55c2-aacf-47e0-9e4a-0627497cfebe",
+        "name": "Mille M\u00f8ller",
+        "email": "mille.moller+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "2bd3d92c-70ed-46eb-8863-8376383b4226",
+        "name": "Amelia Rodriguez",
+        "email": "amelia.rodriguez+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "0dc05dcc-43d6-4712-a8bd-f6e72abd9791",
+        "name": "Gunther Hubert",
+        "email": "gunther.hubert+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "082354bc-45c0-4dc2-83bf-4da201dae5d7",
+        "name": "Pramitha Kumar",
+        "email": "pramitha.kumar+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b96055c7-8885-4a0a-bd14-f5ed47f644d5",
+        "name": "Marie Bonnet",
+        "email": "marie.bonnet+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "cb7f58de-1c6b-4aa6-b31e-254e54901b07",
+        "name": "Anna Wood",
+        "email": "anna.wood+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "903cbbfc-0bed-4661-b043-e77f840d30d6",
+        "name": "Cecilie Nielsen",
+        "email": "cecilie.nielsen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "da89188c-6a3e-4614-9b10-4464a9a334b4",
+        "name": "Ceylan Paks\u00fct",
+        "email": "ceylan.paksut+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "2328d760-594d-4244-9e99-1e28ef334666",
+        "name": "Dustin Brown",
+        "email": "dustin.brown+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "7430535e-085f-4d31-b8a8-d80c71ae5214",
+        "name": "Hannah Liu",
+        "email": "hannah.liu+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e3bfe49b-6dc1-4095-8bce-6591e7b59af5",
+        "name": "Mason Bouchard",
+        "email": "mason.bouchard+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "23375132-36f9-4750-839f-bed31ad5fc9f",
+        "name": "El\u00e9na Dupuis",
+        "email": "elena.dupuis+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "7105bc38-966a-4a22-b33b-0bbca325b11a",
+        "name": "Marta Tripkovi\u0107",
+        "email": "marta.tripkovic+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "3a8b24c4-f13e-45c5-bbc9-63161c64249b",
+        "name": "Bertino Freitas",
+        "email": "bertino.freitas+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "580cf9bd-d865-48c1-9ad7-f83d42a0c9dc",
+        "name": "Francisca Carrasco",
+        "email": "francisca.carrasco+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "1c29ef75-120f-42d3-914a-83c793b01c3e",
+        "name": "Ustim Osaulenko",
+        "email": "ustim.osaulenko+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "6b297556-8517-4e44-b5eb-9442d8b425bd",
+        "name": "Odd Gr\u00f8stad",
+        "email": "odd.grostad+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "733c1009-5f6c-49b0-ba44-d636d0d1b65c",
+        "name": "Florence Davis",
+        "email": "florence.davis+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c8ae5522-c734-449f-8542-83c7f2367b7e",
+        "name": "Babs Van Hooft",
+        "email": "babs.vanhooft+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "693bfb87-f7c4-472b-a017-1abf7349071b",
+        "name": "Sonia Jim\u00e9nez",
+        "email": "sonia.jimenez+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b51d9b21-bf88-46b3-bdbe-8ee6b4d9f820",
+        "name": "Fatih \u00d6zk\u00f6k",
+        "email": "fatih.ozkok+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b05a6734-e21f-471f-89a6-c0bff6a96db8",
+        "name": "Gauthier Roussel",
+        "email": "gauthier.roussel+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "eb0c4cb0-91d4-4990-8c60-e3b5ba84cfc3",
+        "name": "Harvey Richardson",
+        "email": "harvey.richardson+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "a830cd91-35ef-4260-a5a2-c6abaaf1063e",
+        "name": "Faith Rice",
+        "email": "faith.rice+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8e08a4e6-42cb-4635-aa91-9a7e499615a8",
+        "name": "Kelly Da Silva",
+        "email": "kelly.dasilva+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "053721d4-9aaf-48fc-82bd-747925f9c96a",
+        "name": "G\u00e9raldine Olivier",
+        "email": "geraldine.olivier+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "3eecf34c-a15d-4516-870d-e04e72e9e436",
+        "name": "Artemisiya Voronovskiy",
+        "email": "artemisiya.voronovskiy+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "0ba76547-4288-4dd8-8ace-bd7ec4f218c8",
+        "name": "Cameron Douglas",
+        "email": "cameron.douglas+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c5807223-a128-45cf-af93-78884d225b3d",
+        "name": "Solmaz Nouwens",
+        "email": "solmaz.nouwens+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "dc733e78-2faa-4e77-8dbe-b4ac159e3137",
+        "name": "Addison White",
+        "email": "addison.white+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8ef21d31-8552-4f9f-95ca-28746f6ddb96",
+        "name": "Angus Patel",
+        "email": "angus.patel+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8cc722cf-d435-46f5-a76c-0279dd0ebbb7",
+        "name": "Jenny Hale",
+        "email": "jenny.hale+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "144ddfb7-5a76-4354-8340-41a1d5319ec5",
+        "name": "Baptist Reitz",
+        "email": "baptist.reitz+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "18476e6d-129f-4a63-89f3-c55f8fe2e253",
+        "name": "Olivier C\u00f4t\u00e9",
+        "email": "olivier.cote+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "8f6c0339-14dd-4e29-ba42-a921da1db500",
+        "name": "Jimmy Mercier",
+        "email": "jimmy.mercier+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "10dcd8c7-4243-481b-9213-912db90ebe6e",
+        "name": "George Wallace",
+        "email": "george.wallace+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e8c1d563-6999-4aed-b6db-56069efa2dff",
+        "name": "Hredhaan Kini",
+        "email": "hredhaan.kini+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "d90dba80-fcb0-4cd3-8550-1441f35db9a8",
+        "name": "Abigail Cooper",
+        "email": "abigail.cooper+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "47338764-9f55-48ef-9b2f-f6d2da9b8887",
+        "name": "Sebastian W\u00f6lk",
+        "email": "sebastian.wolk+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "099555c2-95de-4a0f-b091-d9ba39ecbe13",
+        "name": "Rushali Taj",
+        "email": "rushali.taj+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b484c97a-8ee6-425c-8a23-38a1a0c937ca",
+        "name": "Arpitha Ramesh",
+        "email": "arpitha.ramesh+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "1ddf7448-11df-4e3d-a823-9548949141fb",
+        "name": "Alice Patel",
+        "email": "alice.patel+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "5ee71b5c-b1e9-4554-a231-2d1287bb954c",
+        "name": "Yolanda Parra",
+        "email": "yolanda.parra+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "4e7958d6-57ab-4d3d-b5b4-b3f2a090e93a",
+        "name": "Erlend Heen",
+        "email": "erlend.heen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "d8c9a644-a280-452b-ae10-abb212334fd3",
+        "name": "Yaromir Lisnyak",
+        "email": "yaromir.lisnyak+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "eb3ad86c-63e4-486e-be45-6fddd28a17a6",
+        "name": "Clarisse Cavalcanti",
+        "email": "clarisse.cavalcanti+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "b36d9075-aadc-4e02-8173-900c058908a7",
+        "name": "Julian Jackson",
+        "email": "julian.jackson+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "bcfc20dd-66ff-4e15-b002-3033fe29cc3d",
+        "name": "Eva Gallardo",
+        "email": "eva.gallardo+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "a88048c6-8f8c-4b83-905d-5c9af38cd009",
+        "name": "Remedios Castillo",
+        "email": "remedios.castillo+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "11f33754-eeeb-4e6d-bfbf-12b2c78f1591",
+        "name": "Maria Johansen",
+        "email": "maria.johansen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "60af8264-d448-4033-a6da-7741b53f084d",
+        "name": "Ariane Kowalski",
+        "email": "ariane.kowalski+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "7a140e1a-ce4f-4e53-b68c-45421908f75e",
+        "name": "Samuel Anderson",
+        "email": "samuel.anderson+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "09b36694-d5b8-41b0-be0f-5cb5aa699646",
+        "name": "Richard Chapman",
+        "email": "richard.chapman+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c9e29ffe-3612-42d7-a0e3-bea47f8eed68",
+        "name": "Harper Liu",
+        "email": "harper.liu+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "a45dbdad-6801-46a5-8459-41b41ef1c2cd",
+        "name": "Daniel Tuominen",
+        "email": "daniel.tuominen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "5a7d8cfa-6993-42f0-9cb4-01f9c2cea09d",
+        "name": "Alma Christiansen",
+        "email": "alma.christiansen+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e8851be6-7dbd-4b6b-a5c6-1c0081a28aae",
+        "name": "Charlie Leroux",
+        "email": "charlie.leroux+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "447b65fd-d419-44a1-8132-75ae6cf2e89e",
+        "name": "Suzana Ivkov",
+        "email": "suzana.ivkov+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "5f9e4b25-c612-4f7c-b129-6cc5111d11e4",
+        "name": "Warinder Shayana",
+        "email": "warinder.shayana+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "0b7b37ad-62f4-4471-82c3-fa450e994a2c",
+        "name": "Karolina Kloss",
+        "email": "karolina.kloss+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "eb4889eb-fd23-457d-b324-7279cd4dfe1e",
+        "name": "Inger Azizi",
+        "email": "inger.azizi+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "0ceb3e97-0354-4c8e-a729-cd2f55be266d",
+        "name": "H\u00e9l\u00e8na Gonzalez",
+        "email": "helena.gonzalez+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "201b7b4e-0dc4-4101-b0dc-9cafdd1e6c2a",
+        "name": "Nathana\u00ebl Rey",
+        "email": "nathanael.rey+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "dab96532-af07-4d0a-9337-d64468a56d1c",
+        "name": "Daryl Miles",
+        "email": "daryl.miles+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "e98c56c1-8116-45e4-9d5d-f3e666ab9d1e",
+        "name": "Ra\u00fal Gayt\u00e1n",
+        "email": "raul.gaytan+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "bc1d4384-debd-40c8-813d-7756f81b0890",
+        "name": "Rom\u00e9o Durand",
+        "email": "romeo.durand+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "070120d6-9c73-42d8-b960-95227d3b5bd6",
+        "name": "Ceylan Aclan",
+        "email": "ceylan.aclan+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "c4de7d8d-7725-4f40-abd5-050711c07931",
+        "name": "Jessey Pennekamp",
+        "email": "jessey.pennekamp+cloud@example.com",
+        "score": 5,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Password too short",
+            "Invalid registration date format"
+        ]
+    },
+    {
+        "id": "dc4ee3a0-ae94-43d9-a115-e26f13bd217c",
+        "name": "\u0622\u0646\u06cc\u062a\u0627 \u0633\u0647\u064a\u0644\u064a \u0631\u0627\u062f",
+        "email": "anyt.shylyrd+cloud@example.com",
+        "score": 6,
+        "risk_level": "MEDIUM",
+        "reasons": [
+            "Invalid registration date format",
+            "User from high-risk country: Iran"
+        ]
+    },
+    {
+        "id": "419b7156-cdc7-4984-899a-58633d0962bf",
+        "name": "Selma Larsen",
+        "email": "selma.larsen+cloud@example.com",
+        "score": 0,
+        "risk_level": "LOW",
+        "reasons": [
+            "Invalid registration date format"
+        ]
+    }
+]
